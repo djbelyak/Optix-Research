@@ -11,3 +11,9 @@
 *.lai
 *.la
 *.a
+
+Report/*.log
+Report/*.out
+Report/*.aux
+Report/*.toc
+Report/*.gz
