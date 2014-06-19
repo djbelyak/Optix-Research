@@ -53,6 +53,8 @@
 \setcounter{page}{2} % начать нумерацию с номера три
 \renewcommand{\figurename}{Рисунок}
 
+\input{ref}
+\newpage
 %Меняем название Оглавления
 \renewcommand{\contentsname}{\centering Содержание}
 %Оглавление
@@ -62,21 +64,22 @@
 
 %Введение
 \input{Intro}
-
+\newpage
 % Глава 1. Изучение аппаратной архитектуры CUDA
 \input{cuda}
-
+\newpage
 % Глава 2. Optix
 \input{optix}
-
+\newpage
 %Глава 3. Практическая часть
 \input{prac}
-
+\newpage
 %\input{Outro}
 \input{outro}
+\newpage
 %Список литературы
 \input{Books}
-
+\newpage
 
 
 \end{document}   
